@@ -1,0 +1,82 @@
+html {
+    background-color: lightgrey;
+    font-family: Arial;
+    margin: 35%;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.headerArea {
+   display: flex;
+    flex-direction: column;
+}
+
+.citiesBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend {
+    align-self: flex-start;
+}
+
+
+.radio{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.dropdown {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px 0;
+}
+.suggestionBox {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dropdownBox {
+    height: 25px;
+}
+
+.submit {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+}
+
+.submit:hover {
+    background-color: lightblue;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="mainPage">
+<body>
+    <div class="headerArea">
+        <h1>Survey Form</h1>
+        <p id="description">This is a mockup survey form, thank you for participating!</p>
+    </div>
+<form method="post">
+    <div class="textBox">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" required autofocus>
+    </div>
+
+    <div class="textBox">
+        <label for="email">Email:</label>
+        <input id="email" type="email" required>
+    </div>
+
+    <div class="textBox">
+        <label for="age">Age (Optional):</label>
+        <input id="age" type="number">
+    </div>
+
+    <div class="citiesBox">
+        <label for="cities">What city are you from</label>
+        <select class="dropdownBox" name="citiesOption" id="cities">
+            <option>Lehi</option>
+            <option>American Fork</option>
+            <option>Eagle Mountain</option>
+            <option>Saratogoa Springs</option>
+            <option>Lindon</option>
+            <option>Pleasant Grove</option>
+            <option>Orem</option>
+            <option>Provo</option>
+        </select>
+    </div>
+
+    <div class="radio">
+        <label>Would you recommend Utah County to a friend as a place to live?</label>
+        <span><input type="radio" name="recommend" class="recommend"> Definately</span>
+        <span><input type="radio" name="recommend" class="recommend"> Maybe</span>
+        <span><input type="radio" name="recommend" class="recommend"> Not Sure</span>
+    </div>
+
+    <div class="dropdown">
+        <label>What is your favorite city feature?</label>
+        <select class="dropdownBox" name="fav">
+            <option>Community</option>
+            <option>Churches</option>
+            <option>Shopping Centers</option>
+            <option>Schools</option>
+            <option>Parks</option>
+            <option>Movie Theaters</option>
+        </select>
+    </div>
+
+    <div class="checkbox">
+        <label>What would you like to see improved?</label>
+        <span><input type="checkbox" name="improvement">Cheaper single family homes</span>
+        <span><input type="checkbox" name="improvement">Park with pavilion for neighborhoods</span>
+        <span><input type="checkbox" name="improvement">Better traffic flow</span>
+        <span><input type="checkbox" name="improvement">Shopping mall</span>
+        <span><input type="checkbox" name="improvement">High density apartments</span>
+
+    </div>
+
+    <div class="suggestionBox">
+        <label>Any comments or suggestions?</label>
+        <textarea rows="4" cols="75" name="suggestions"></textarea>
+    </div>
+
+
+    <input class="submit" type="submit">
+
+</form>
+</body>
+</div>
+</html>
